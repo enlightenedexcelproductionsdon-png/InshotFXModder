@@ -7,7 +7,11 @@ local effect = {
         speed = 1.2,
         phase = 0,
         direction = "horizontal"
-    }
+        amplitude = 25,
+        frequency = 8,
+        speed = 1.2,
+        phase = 0,
+        direction = "vertical"
 }
 
 local function applyWave(frame, t)
